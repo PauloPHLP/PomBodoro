@@ -6,7 +6,7 @@
 
 ## 🔎️ Description
 
-A Pomodoro app made with Vue.js.
+A simple Pomodoro app to test PWA concepts on Vue.js.
 
 ## 🚀️ Technologies
 
