@@ -1,24 +1,19 @@
-# pombodoro
+# 🖥️ PomBodoro
 
-## Project setup
-```
-npm install
-```
+<h1 align="center">
+  <img src=".github/logo.png" width="200px" />
+</h1>
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## 🔎️ Description
 
-### Compiles and minifies for production
-```
-npm run build
-```
+A Pomodoro app made with Vue.js.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## 🚀️ Technologies
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Vue.js 2
+
+---
+
+Thank you and good coding 😎️
+
+Made by **<a href="https://paulophlp.github.io/portfolio/" target="__blank">Paulo Lima 🤓️</a>**
