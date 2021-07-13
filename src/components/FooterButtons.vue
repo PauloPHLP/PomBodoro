@@ -3,14 +3,14 @@
     <router-link to="/" exact active-class="active">
       <img
         class="bottom-button"
-        src="../assets/icons/clock.svg"
+        src="@/assets/icons/clock.svg"
         alt="Clock button."
       >
     </router-link>
     <router-link to="/settings" exact active-class="active">
       <img
         class="bottom-button"
-        src="../assets/icons/settings.svg"
+        src="@/assets/icons/settings.svg"
         alt="Settings button."
       >
     </router-link>
@@ -18,9 +18,11 @@
 </template>
 
 <script>
+
 export default {
-	name: 'FooterButtons',
+  name: 'FooterButtons',
 };
+
 </script>
 
 <style scoped lang="scss">

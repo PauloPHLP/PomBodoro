@@ -2,7 +2,11 @@
   <div class="settings">
     <header class="title">
       <router-link to="/">
-        <img src="../assets/icons/arrow-left.svg" alt="Back button." class="back-button">
+        <img
+          src="@/assets/icons/arrow-left.svg"
+          alt="Back button."
+          class="back-button"
+        />
       </router-link>
       <span>Timer settings</span>
     </header>
@@ -12,96 +16,52 @@
         :key="item.title"
         :title="item.title"
         :optionsList="item.options"
-        />
+      />
     </div>
     <div class="control-buttons">
       <button class="control-button cancel">Cancel</button>
       <button class="control-button save">Save</button>
     </div>
-    <footer-buttons/>
+    <footer-buttons />
   </div>
 </template>
 
 <script>
-import FooterButtons from '../components/FooterButtons.vue';
-import SettingsItem from '../components/SettingsItem.vue';
+import FooterButtons from '@/components/FooterButtons.vue';
+import SettingsItem from '@/components/SettingsItem.vue';
+import settings from '@/assets/configuration/settings';
 
 export default {
-	name: 'Settings',
-	components: { FooterButtons, SettingsItem },
-	data() {
-		return {
-			settingsList: [
-				{
-					title: 'Focuse time',
-					options: [
-						'10 min',
-						'15 min',
-						'20 min',
-						'25 min',
-						'30 min',
-						'35 min',
-						'40 min',
-						'45 min',
-					],
-				},
-				{
-					title: 'Short break',
-					options: [
-						'5 min',
-						'7 min',
-						'10 min',
-					],
-				},
-				{
-					title: 'Long break',
-					options: [
-						'10 min',
-						'15 min',
-						'20 min',
-						'25 min',
-						'30 min',
-					],
-				},
-				{
-					title: 'Sections',
-					options: [
-						'2 intervals',
-						'3 intervals',
-						'4 intervals',
-						'5 intervals',
-						'6 intervals',
-						'7 intervals',
-						'8 intervals',
-						'9 intervals',
-						'10 intervals',
-					],
-				},
-			],
-		};
-	},
+  name: 'Settings',
+  components: { FooterButtons, SettingsItem },
+  data() {
+    return {
+      settingsList: settings,
+    };
+  },
 };
-
 </script>
 
 <style scoped lang="scss">
-
 .settings {
+  width: 100%;
+  height: 100%;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 100%;
-  height: 100%;
+
   text-align: center;
   padding: 2rem 1rem;
 }
 
 .title {
+  width: 100%;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
 
   font-weight: 600;
   font-size: 32px;
@@ -112,18 +72,13 @@ export default {
   }
 
   .back-button {
-    filter:
-      invert(100%)
-      sepia(100%)
-      saturate(0%)
-      hue-rotate(288deg)
-      brightness(102%)
-      contrast(102%);
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
+      brightness(102%) contrast(102%);
 
     &:hover {
       cursor: pointer;
     }
-  };
+  }
 
   & span {
     margin-right: auto;
@@ -131,11 +86,13 @@ export default {
 }
 
 .settings-items {
+  max-width: 100%;
+
   flex: 1;
+  overflow: auto;
+
   margin-top: 3rem;
   margin-bottom: 1rem;
-  overflow: auto;
-  max-width: 100%;
 
   &::-webkit-scrollbar {
     width: 0px;
@@ -144,24 +101,29 @@ export default {
 }
 
 .control-buttons {
+  width: 50rem;
+  max-width: 100%;
+
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 50rem;
-  max-width: 100%;
+
   margin-bottom: 3rem;
 }
 
 .control-button {
   height: 3rem;
   width: 100%;
+
   margin: 0 1rem;
-  border-radius: 4rem;
-  color: #ffffff;
-  background: transparent;
-  border: none;
+
   font-size: 24px;
+  background: transparent;
+  color: #ffffff;
+
+  border-radius: 4rem;
+  border: none;
 
   &:hover {
     cursor: pointer;
@@ -173,11 +135,10 @@ export default {
 }
 
 .control-button.cancel {
-  border: 1px solid #674FFF;
+  border: 1px solid #674fff;
 }
 
 .control-button.save {
-  background-color: #674FFF;
+  background-color: #674fff;
 }
-
 </style>

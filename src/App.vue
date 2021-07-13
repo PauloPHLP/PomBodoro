@@ -22,6 +22,7 @@
   #app {
     height: 100vh;
     width: 100vw;
+
     background-color: #1E1B2E;
     color: #ffffff;
   }

@@ -1,0 +1,202 @@
+[
+  {
+    "title": "Focus time",
+    "options": [
+      {
+        "key": "10-focus-time",
+        "title": "10 min",
+        "value": 10
+      },
+      {
+        "key": "15-focus-time",
+        "title": "15 min",
+        "value": 15
+      },
+      {
+        "key": "20-focus-time",
+        "title": "20 min",
+        "value": 20
+      },
+      {
+        "key": "25-focus-time",
+        "title": "25 min",
+        "value": 25
+      },
+      {
+        "key": "30-focus-time",
+        "title": "30 min",
+        "value": 30
+      },
+      {
+        "key": "35-focus-time",
+        "title": "35 min",
+        "value": 35
+      },
+      {
+        "key": "40-focus-time",
+        "title": "40 min",
+        "value": 40
+      },
+      {
+        "key": "45-focus-time",
+        "title": "45 min",
+        "value": 45
+      },
+      {
+        "key": "50-focus-time",
+        "title": "50 min",
+        "value": 50
+      },
+      {
+        "key": "55-focus-time",
+        "title": "55 min",
+        "value": 55
+      },
+      {
+        "key": "60-focus-time",
+        "title": "60 min",
+        "value": 60
+      }
+    ]
+  },
+  {
+    "title": "Short break",
+    "options": [
+      {
+        "key": "2-short-break",
+        "title": "2 min",
+        "value": 2
+      },
+      {
+        "key": "5-short-break",
+        "title": "5 min",
+        "value": 5
+      },
+      {
+        "key": "7-short-break",
+        "title": "7 min",
+        "value": 7
+      },
+      {
+        "key": "10-short-break",
+        "title": "10 min",
+        "value": 10
+      },
+      {
+        "key": "15-short-break",
+        "title": "15 min",
+        "value": 15
+      },
+      {
+        "key": "20-short-break",
+        "title": "20 min",
+        "value": 20
+      },
+      {
+        "key": "25-short-break",
+        "title": "25 min",
+        "value": 25
+      },
+      {
+        "key": "30-short-break",
+        "title": "30 min",
+        "value": 30
+      }
+    ]
+  },
+  {
+    "title": "Long break",
+    "options": [
+      {
+        "key": "10-long-break",
+        "title": "10 min",
+        "value": 10
+      },
+      {
+        "key": "15-long-break",
+        "title": "15 min",
+        "value": 15
+      },
+      {
+        "key": "20-long-break",
+        "title": "20 min",
+        "value": 20
+      },
+      {
+        "key": "25-long-break",
+        "title": "25 min",
+        "value": 25
+      },
+      {
+        "key": "30-long-break",
+        "title": "30 min",
+        "value": 30
+      },
+      {
+        "key": "35-long-break",
+        "title": "35 min",
+        "value": 35
+      },
+      {
+        "key": "40-long-break",
+        "title": "40 min",
+        "value": 40
+      },
+      {
+        "key": "45-long-break",
+        "title": "45 min",
+        "value": 45
+      }
+    ]
+  },
+  {
+    "title": "Sections",
+    "options": [
+      {
+        "key": "2-intervals",
+        "title": "2 intervals",
+        "value": 2
+      },
+      {
+        "key": "3-intervals",
+        "title": "3 intervals",
+        "value": 3
+      },
+      {
+        "key": "4-intervals",
+        "title": "4 intervals",
+        "value": 4
+      },
+      {
+        "key": "5-intervals",
+        "title": "5 intervals",
+        "value": 5
+      },
+      {
+        "key": "6-intervals",
+        "title": "6 intervals",
+        "value": 6
+      },
+      {
+        "key": "7-intervals",
+        "title": "7 intervals",
+        "value": 7
+      },
+      {
+        "key": "8-intervals",
+        "title": "8 intervals",
+        "value": 8
+      },
+      {
+        "key": "9-intervals",
+        "title": "9 intervals",
+        "value": 9
+      },
+      {
+        "key": "10-intervals",
+        "title": "10 intervals",
+        "value": 10
+      }
+    ]
+  }
+]
