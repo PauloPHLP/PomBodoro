@@ -1,9 +1,9 @@
 <template>
   <div class="settings-item">
-    <span>{{ title }}</span>
-    <select>
+    <span>{{ settings.title }}</span>
+    <select v-model="currentSelected[settings.id]">
       <option
-        v-for="option in optionsList"
+        v-for="option in settings.options"
         :key="option.key"
         :value="option.value"
       >
@@ -17,12 +17,12 @@
 export default {
   name: 'SettingsItem',
   props: {
-    title: {
-      type: String,
+    settings: {
+      type: Object,
       required: true,
     },
-    optionsList: {
-      type: Array,
+    currentSelected: {
+      type: Object,
       required: true,
     },
   },

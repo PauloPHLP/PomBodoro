@@ -9,13 +9,15 @@
     <div class="settings-items">
       <settings-item
         v-for="item in settingsList"
-        :key="item.title"
-        :title="item.title"
-        :optionsList="item.options"
+        :key="item.id"
+        :settings="item"
+        :currentSelected="currentSelected"
       />
     </div>
     <div class="control-buttons">
-      <button class="control-button cancel">Cancel</button>
+      <button class="control-button cancel">
+        Cancel
+      </button>
       <button class="control-button save">Save</button>
     </div>
     <footer-buttons />
@@ -33,7 +35,18 @@ export default {
   data() {
     return {
       settingsList: settings,
+      currentSelected: {},
     };
+  },
+  created() {
+    this.getCurrentSettings();
+  },
+  methods: {
+    getCurrentSettings() {
+      this.currentSelected = JSON.parse(
+        localStorage.getItem('pombodoroSettings'),
+      );
+    },
   },
 };
 </script>
