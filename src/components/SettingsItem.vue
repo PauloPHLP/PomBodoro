@@ -31,19 +31,16 @@ export default {
 
 <style scoped lang="scss">
 .settings-item {
-  height: 5rem;
-  width: 50rem;
-  max-width: 100%;
+  background-color: blue;
 
   display: flex;
-  flex: 1;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-
-  margin: 1rem 0;
-  padding: 0 2rem;
-
+  flex: 1;
+  max-height: 5rem;
+  margin: 0.5rem;
+  padding: 1rem;
   background-color: #2d2c3f;
   border-radius: 2.2rem;
 
