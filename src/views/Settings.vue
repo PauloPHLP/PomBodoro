@@ -51,7 +51,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .settings {
   width: 100%;
   height: 100%;

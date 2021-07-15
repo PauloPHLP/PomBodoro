@@ -23,7 +23,7 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
+<style lang="scss" scoped>
 .bottom-button {
   margin: 0 1rem;
   filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(288deg)
