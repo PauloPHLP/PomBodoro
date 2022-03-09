@@ -6,7 +6,7 @@
 
 ## 🔎️ Description
 
-A simple Pomodoro app to test PWA concepts in Vue.js.
+A simple Pomodoro app to test PWA concepts with Vue.js.
 
 ## 🚀️ Technologies
 
